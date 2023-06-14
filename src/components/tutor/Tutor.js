@@ -26,7 +26,7 @@ export default function Tutor() {
                 return <div className="post">
                     <h2>{post.name}</h2>
                     <p>Qualifications : {post.education}</p>
-                    <p>Can Help You Out In : {post.feature}</p>
+                    <p>Can Help You Out In : {post.field}</p>
                     <p>Cost of Crash Course : {post.crash_course} rupees</p>
                     <p>Cost of Supscription : {post.supscription} / month</p>
                     {authenticated?
