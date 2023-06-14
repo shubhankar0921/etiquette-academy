@@ -1,0 +1,35 @@
+.navbar {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: dodgerblue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: fixed;
+}
+
+.items {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_item {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.title {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 30px;
+}
